@@ -1,0 +1,15 @@
+## Build outputs
+bin/
+obj/
+dist/
+*.user
+*.suo
+## IDE
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+## Logs
+*.log
+## Runtime
+Nvrx_Log.txt
