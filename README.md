@@ -36,7 +36,7 @@ This source is distributed as a ZIP archive. The archive contains only the sourc
 
 ## Requirements
 
-- 64-bit **Windows 10 or Windows 11**
+- 64-bit **Windows 11**
 - **.NET 9 Desktop Runtime** (or the **.NET 9 SDK** to build from source)
 - **Administrator privileges** (the app runs elevated to apply tweaks)
 
