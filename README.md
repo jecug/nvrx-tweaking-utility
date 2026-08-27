@@ -23,13 +23,24 @@ Plus 5 one-click **Dashboard** actions: Disk Cleanup, Activate Windows, Create S
 
 ---
 
+## Distribution (ZIP)
+
+This source is distributed as a ZIP archive. The archive contains only the source code — **no `bin`/`obj` build outputs** are included. To use it:
+
+1. Extract the ZIP (e.g. `Source Code.zip`).
+2. Open the extracted folder in a terminal.
+3. Build with the .NET 9 SDK (see below).
+4. Run the built `.exe` **as Administrator**.
+
+---
+
 ## Requirements
 
-- 64-bit **Windows 11**
-- **.NET 9 Desktop Runtime**
+- 64-bit **Windows 10 or Windows 11**
+- **.NET 9 Desktop Runtime** (or the **.NET 9 SDK** to build from source)
 - **Administrator privileges** (the app runs elevated to apply tweaks)
 
-> A small, self-contained build is available from the website so most users don't need anything installed.
+> A small, ready-to-run build is available from the website so most users don't need to build or install anything.
 
 ---
 
@@ -67,6 +78,19 @@ Each tweak runs elevated and logs every step to `Nvrx_Log.txt` on the Desktop (a
 
 ---
 
+## Project layout
+
+```
+Assets/        App icon and other resources
+Controls/      Reusable WPF controls (e.g. TweakPanel)
+Models/        Data models and the TweakFactory
+Services/      CmdService, LogService, ElevationHelper, SystemInfoService
+Themes/        Colors and WPF styles
+Views/         Per-category views (CPU, GPU, Network, KBM, Debloat, Windows, Dashboard)
+```
+
+---
+
 ## License
 
 See [LICENSE](LICENSE). Source is available for reading only — all rights reserved by Nvrx.
@@ -74,3 +98,4 @@ See [LICENSE](LICENSE). Source is available for reading only — all rights rese
 ## Links
 
 - [Discord](https://discord.gg/zCkcdZar5w)
+- 
