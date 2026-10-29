@@ -90,4 +90,4 @@ See [LICENSE](https://github.com/jecug/nvrx-tweaking-utility/blob/main/LICENSE).
 
 ## Links
 
-- [Discord](https://discord.gg/zCkcdZar5w)
+- [Discord](https://discord.gg/8Dfa6qQqsb)
