@@ -4,7 +4,7 @@
 
 A Windows 11 PC tweaking utility built in **C++ / ImGui (MSVC)**. Fifty-two isolated tweak scripts across seven categories, a one-click Recommended flow, an honest BIOS Tweaker and a per-Game optimizer, all from one binary.
 
-> **Note:** This repository is **source-available only**. You may read and learn from the code, but copying, modifying, redistributing, or using it in your own projects is prohibited. See [LICENSE](/jecug/nvrx-tweaking-utility/blob/main/LICENSE).
+> **Note:** This repository is **source-available only**. You may read and learn from the code, but copying, modifying, redistributing, or using it in your own projects is prohibited. See [LICENSE](https://github.com/jecug/nvrx-tweaking-utility/blob/main/LICENSE).
 
 ---
 
@@ -86,7 +86,7 @@ util/        gen_scripts.py - normalizes Nvrx.bat + what to add.txt into embedde
 
 ## License
 
-See [LICENSE](/jecug/nvrx-tweaking-utility/blob/main/LICENSE). Source is available for reading only - all rights reserved by Nvrx.
+See [LICENSE](https://github.com/jecug/nvrx-tweaking-utility/blob/main/LICENSE). Source is available for reading only - all rights reserved by Nvrx.
 
 ## Links
 
